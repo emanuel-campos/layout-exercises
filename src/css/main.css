@@ -1,0 +1,43 @@
+/**
+ * custom buttons
+ *
+ * estilo personalizado para os botoes padrao do bootstrap
+ */
+.btn-text{
+	background: transparent;
+}
+
+/**
+ * custom-form
+ *
+ * estilo para personalizar os formularios do bootstrap
+ */
+.custom-form .form-group{
+	margin-bottom: 20px;
+}
+
+	.custom-form .form-control{
+		border:0;
+		border-bottom: 2px solid #000;
+		box-shadow: none;
+		border-radius: 0;
+		font-size: 22px; 
+	}
+
+/**
+ * page-login
+ */
+.page-login{
+	text-align: center;
+	margin-top: 150px;
+}
+
+	.page-login .page-login-form .btn-enviar{
+		color: #d2483f;
+		font-size: 30px;
+	}
+
+	.page-login .custom-form{
+		max-width: 280px;
+		margin: 0 auto;
+	}
