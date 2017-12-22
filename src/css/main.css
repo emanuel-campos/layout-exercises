@@ -13,7 +13,7 @@
  * estilo para personalizar os formularios do bootstrap
  */
 .custom-form .form-group{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 	.custom-form .form-control{
@@ -21,7 +21,7 @@
 		border-bottom: 2px solid #000;
 		box-shadow: none;
 		border-radius: 0;
-		font-size: 22px; 
+		font-size: 25px; 
 	}
 
 /**
@@ -37,7 +37,62 @@
 		font-size: 30px;
 	}
 
-	.page-login .custom-form{
-		max-width: 280px;
-		margin: 0 auto;
+	.page-login .page-login-header{
+		width: 320px;
+		height: 320px;
+		background: #000;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #fff;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -60%);
+		position: absolute;
+		z-index: 1;
+		transition: .5s;
 	}
+
+		/**
+		 * efeito de transicao para o circlo "Login"
+		 */
+		.page-login:hover .page-login-header{
+			transform: translate(-50%, -60%) rotate(-90deg);
+			transition: .5s;
+			display: block;
+			background: linear-gradient(to bottom, #000 17%, #fff 0%);
+		}		
+
+		.page-login .page-login-title{
+			font-size: 60px;
+			margin-top: 0;
+			margin-bottom: 0;
+			line-height: 1;
+		}
+
+			/**
+			 * efeito de transicao para o texto do circulo "Login"
+			 */
+			.page-login:hover .page-login-title{
+			    font-size: 30px;
+    			margin-top: 10px;
+			}
+
+	.page-login .custom-form{
+		max-width: 250px;
+		margin: 0 auto;
+		opacity: 0;
+		transition: .5s;
+	}
+
+		/**
+		 * efeito de transicao para o formulario de login
+		 */
+		.page-login:hover .custom-form{
+			opacity: 1;
+			transition: .5s;
+			position: relative;
+			z-index: 2;
+			margin-left: 100px;
+		}
