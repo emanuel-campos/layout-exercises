@@ -55,7 +55,7 @@
 	}
 
 		/**
-		 * efeito de transicao para o circlo "Login"
+		 * efeito de transicao para o circulo "Login"
 		 */
 		.page-login:hover .page-login-header{
 			transform: translate(-50%, -60%) rotate(-90deg);
