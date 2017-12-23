@@ -96,3 +96,48 @@
 			z-index: 2;
 			margin-left: 100px;
 		}
+
+/**
+ * page-home
+ */
+.page-home-header{
+	border-bottom: 1px solid #e1e7dd;
+}
+
+	.page-home-header .navbar{
+		margin-bottom: 0;
+	}
+
+.page-home-gallery{
+	margin-top: 70px;
+}
+
+/**
+ * carrousel da pagina principal
+ */
+.page-home-gallery .owl-buttons{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	pointer-events: none;
+}
+
+	.page-home-gallery .owl-buttons div{
+		pointer-events: auto;
+		color: #c5372d !important; /* !important para sobrescrever o estilo do plugin */
+		font-size: 90px !important; /* !important para sobrescrever o estilo do plugin */
+		background: transparent !important; /* !important para sobrescrever o estilo do plugin */
+		opacity: 1 !important; /* !important para sobrescrever o estilo do plugin */
+		padding: 0 !important; /* !important para sobrescrever o estilo do plugin */
+	}
+
+		.page-home-gallery .owl-buttons .owl-prev{
+			float: left;
+			margin-left: -80px !important; /* !important para sobrescrever o estilo do plugin */
+		}
+
+		.page-home-gallery .owl-buttons .owl-next{
+			float: right;
+			margin-right: -80px !important; /* !important para sobrescrever o estilo do plugin */
+		}
