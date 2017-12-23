@@ -122,9 +122,16 @@
 	border-bottom: 1px solid #e1e7dd;
 }
 
+	@media all and (max-width: 768px){
+		.page-home-header{
+			padding: 0 15px;
+		}
+	}
+
 	.page-home-header .navbar{
 		margin-bottom: 0;
 		padding: 5px 0;
+		min-height: auto;
 	}
 
 	/* estilo padrao para os links do menu no topo */
@@ -183,14 +190,25 @@
 			float: left;
 			margin-left: -80px !important; /* !important para sobrescrever o estilo do plugin */
 		}
+			@media all and (max-width: 768px){
+				.page-home-gallery .owl-buttons .owl-prev{
+					margin-left: 0 !important;
+				}
+			}
 
 		.page-home-gallery .owl-buttons .owl-next{
 			float: right;
 			margin-right: -80px !important; /* !important para sobrescrever o estilo do plugin */
 		}
+			@media all and (max-width: 768px){
+				.page-home-gallery .owl-buttons .owl-next{
+					margin-right: 0 !important;
+				}
+			}
 
 .page-home-gallery .gallery-item{
 	padding: 0 5px;
+	text-align: center;
 }
 
 	.page-home-gallery .gallery-item img{
@@ -206,6 +224,11 @@
 	border-top: 1px solid #dddddd;
 	padding: 50px 0;
 }
+	@media all and (max-width: 768px){
+		.page-home-featured .item-featured{
+			margin-bottom: 35px;
+		}
+	}
 
 /**
  * featured-qr-code
@@ -242,6 +265,15 @@
  *
  * formulario da area destaque da pagina inicial
  */
+.featured-newsletter{
+	text-align: left;
+}
+	@media all and (max-width: 768px){
+		.featured-newsletter{
+			text-align: center;
+		}
+	}
+
 .featured-newsletter .icon{
 	font-size: 90px;
 }
