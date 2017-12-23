@@ -109,7 +109,7 @@
 	}
 
 .page-home-gallery{
-	margin-top: 70px;
+	margin: 70px 0;
 }
 
 /**
@@ -151,3 +151,12 @@
 		max-width: 100%;
 		height: auto;
 	}
+
+/**
+ * page-home-featured
+ */
+.page-home-featured{
+	background: #f4f3f3;
+	border-top: 1px solid #dddddd;
+	padding: 50px 0;
+}
