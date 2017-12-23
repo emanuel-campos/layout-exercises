@@ -124,7 +124,34 @@
 
 	.page-home-header .navbar{
 		margin-bottom: 0;
+		padding: 5px 0;
 	}
+
+	/* estilo padrao para os links do menu no topo */
+	.page-home-header .link-item-menu{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		color: #869590;
+		text-transform: uppercase;
+	}
+
+		.page-home-header .link-item-menu:hover{
+			background: transparent;
+		}
+
+		.page-home-header .link-item-menu .icon{
+			color:#6da838;
+		}
+
+		/* estilo personalizado para os links do menu no topo */
+		.page-home-header .link-item-menu-laranja{
+			background: #f48839;
+			color: #fff;
+		}
+
+			.page-home-header .link-item-menu-laranja:hover{
+				color: #869590;
+			}
 
 .page-home-gallery{
 	margin-top: 70px;
