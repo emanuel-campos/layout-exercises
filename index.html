@@ -3,13 +3,19 @@
 <head>
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/owlcarousel/owl-carousel/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/owlcarousel/owl-carousel/owl.transitions.css">
+	<link rel="stylesheet" type="text/css" href="node_modules/owlcarousel/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="src/css/main.css">
 </head>
 <body>
 	<section class="page-home">
+
+		<!-- BEGIN topo da pagina -->
 		<header class="page-home-header">
 			<nav class="navbar">
 			  <div class="container">
+			  
 			    <!-- botao para abri menu na versao mobile -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -37,11 +43,34 @@
 			  </div><!-- /.container -->
 			</nav>
 		</header>
-		<div class="page-home-gallery">
-			<div class="gallery-item">
-				
-			</div>
+		<!-- END topo da pagina -->
+
+		<!-- BEGIN galeria no carousel -->
+		<div class="container">
+			<div class="page-home-gallery rodar-galeria">
+				<div class="gallery-item">
+					<img src="http://lorempixel.com/output/animals-q-c-280-170-10.jpg">
+				</div>
+				<div class="gallery-item">
+					<img src="http://lorempixel.com/output/animals-q-c-280-170-4.jpg">
+				</div>
+				<div class="gallery-item">
+					<img src="http://lorempixel.com/output/animals-q-c-280-170-5.jpg">
+				</div>
+				<div class="gallery-item">
+					<img src="http://lorempixel.com/output/animals-q-c-280-170-8.jpg">
+				</div>
+				<div class="gallery-item">
+					<img src="http://lorempixel.com/output/animals-q-c-280-170-1.jpg">
+				</div>
+			</div><!-- /.page-home-gallery -->
 		</div>
+		<!-- END galeria no carousel -->
 	</section><!-- /.page-home -->
+
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/owlcarousel/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="src/js/main.js"></script>
 </body>
 </html>
