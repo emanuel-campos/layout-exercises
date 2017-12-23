@@ -7,6 +7,24 @@
 	background: transparent;
 }
 
+.btn-blue{
+	background: #5bc9f7;
+	border-radius: 0;
+	color:#2788bb;
+	font-weight: bold;
+	padding-right: 25px; 
+	padding-left: 25px; 
+}
+
+/**
+ * custom icons
+ *
+ * estilo personalizado para os icones das páginas
+ */
+ .icon-blue{
+ 	color: #2185c3;
+ }
+
 /**
  * custom-form
  *
@@ -191,3 +209,25 @@
 	.featured-qr-code .area-item-qr-code:nth-child(2) .item-qr-code{
 		margin-top: 0;
 	}
+
+/**
+ * featured-newsletter
+ *
+ * formulario da area destaque da pagina inicial
+ */
+.featured-newsletter .icon{
+	font-size: 90px;
+}
+
+	@media all and (min-width: 769px){
+		.featured-newsletter .icon{
+			margin-top: 75px;
+		}
+	}
+
+.featured-newsletter .form-control{
+	background: #e5e5e5;
+	border-radius: 0;
+	border:0;
+	border-bottom: 1px solid #fff;
+}
