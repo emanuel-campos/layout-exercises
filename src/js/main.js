@@ -11,5 +11,10 @@
 				'<i class="glyphicon glyphicon-chevron-right"></i>'
 			]
 		});
+
+		/**
+		 * implementar imagens abrindo em shadowbox
+		 */
+		$('.fancybox').fancybox();
 	});
 })(jQuery)
